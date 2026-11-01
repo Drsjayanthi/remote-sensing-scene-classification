@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Downloaded pretrained models and caches
+pretrained_models/
+hf_cache/
+.cache/
+
+
+# Experiment outputs
+rs_experiment_v2/
+rs_smoke_test/
+outputs/
+runs/
+wandb/
+
+# Log files
+*.log
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Operating system files
+Thumbs.db
+.DS_Store
